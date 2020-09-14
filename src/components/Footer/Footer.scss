@@ -1,0 +1,9 @@
+@import '../../styles/variables';
+
+.footer {
+  padding: 2em 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $bg-color;
+}

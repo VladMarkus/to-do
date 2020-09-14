@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+li {
+
+  label {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5em 1em;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    margin-bottom: 1em;
+
+    &:hover {
+      background-color: $bg-color;
+    }
+
+    input[type="checkbox"] {
+      opacity: 0;
+    }
+  }
+}
